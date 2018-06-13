@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function toFahrenheit(form) {
+  form.fahrenheit.value = form.celsius.value*1.8+32;
+}
+function toCelsius (form) {
+  form.celsius.value = (5/9)*(form.fahrenheit.value - 32);
+}
+</script> 
+</head>
+<body>
+
+<form>
+Celsius: <input type="text" id="celsius" size="15" name="celsius"><br/>
+Fahrenheit: <input type="text" id="fahrenheit" size="15" name="fahrenheit"><br/>
+<input type="button" value="Calculate" onclick="toFahrenheit(this.form);toCelsius(this.form);"> 
+</form>
+
+
+</body>
+
+</html>
