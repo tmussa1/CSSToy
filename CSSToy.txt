@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+h1 {color:blue;
+	background-color: yellow;}
+</style>
+
+</head>
+
+<body>
+<h1>Crawling with CSS </h1>
+</body>
+
+</html>
